@@ -1,0 +1,10 @@
+PODS:
+  - cocos2d (2.1)
+
+DEPENDENCIES:
+  - cocos2d (~> 2.1)
+
+SPEC CHECKSUMS:
+  cocos2d: f2eafa30a3bd86eec2526c9c62c7e8f69cec98b3
+
+COCOAPODS: 0.19.1

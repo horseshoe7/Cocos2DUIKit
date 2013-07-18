@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDA16FB7E0D845D6A048E198 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CBCB2414ED427692C24FD2 /* libPods.a */; };
+		DCD30A811797E240007924EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD30A801797E240007924EF /* UIKit.framework */; };
+		DCD30A831797E240007924EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD30A821797E240007924EF /* Foundation.framework */; };
+		DCD30A851797E240007924EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD30A841797E240007924EF /* CoreGraphics.framework */; };
+		DCD30A8B1797E240007924EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCD30A891797E240007924EF /* InfoPlist.strings */; };
+		DCD30A8D1797E240007924EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD30A8C1797E240007924EF /* main.m */; };
+		DCD30A911797E240007924EF /* BBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD30A901797E240007924EF /* BBAppDelegate.m */; };
+		DCD30A931797E240007924EF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD30A921797E240007924EF /* Default.png */; };
+		DCD30A951797E240007924EF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD30A941797E240007924EF /* Default@2x.png */; };
+		DCD30A971797E240007924EF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD30A961797E240007924EF /* Default-568h@2x.png */; };
+		DCD30A9A1797E241007924EF /* BBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD30A991797E241007924EF /* BBViewController.m */; };
+		DCD30A9D1797E241007924EF /* BBViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCD30A9B1797E241007924EF /* BBViewController_iPhone.xib */; };
+		DCD30AA01797E241007924EF /* BBViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCD30A9E1797E241007924EF /* BBViewController_iPad.xib */; };
+		DCD30ABB1797E343007924EF /* BBScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD30AAA1797E343007924EF /* BBScene.m */; };
+		DCD30ABC1797E343007924EF /* BBSceneLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD30AAC1797E343007924EF /* BBSceneLoader.m */; };
+		DCD30ABD1797E343007924EF /* CCNode+BocceBeers.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD30AAE1797E343007924EF /* CCNode+BocceBeers.m */; };
+		DCD30AC01797E343007924EF /* BBCocos2DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD30AB61797E343007924EF /* BBCocos2DViewController.m */; };
+		DCD30AC21797E343007924EF /* BBSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD30ABA1797E343007924EF /* BBSceneViewController.m */; };
+		DCD30ACD1797E7BA007924EF /* BBGameSceneLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD30ACA1797E7BA007924EF /* BBGameSceneLoader.m */; };
+		DCD30ACE1797E7BA007924EF /* BBTestLoadableScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD30ACC1797E7BA007924EF /* BBTestLoadableScene.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8DAD12EE041F4038B836D310 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		DCD30A7D1797E240007924EF /* CocosUIKitHybrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocosUIKitHybrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD30A801797E240007924EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DCD30A821797E240007924EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DCD30A841797E240007924EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DCD30A881797E240007924EF /* CocosUIKitHybrid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocosUIKitHybrid-Info.plist"; sourceTree = "<group>"; };
+		DCD30A8A1797E240007924EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCD30A8C1797E240007924EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCD30A8E1797E240007924EF /* CocosUIKitHybrid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocosUIKitHybrid-Prefix.pch"; sourceTree = "<group>"; };
+		DCD30A8F1797E240007924EF /* BBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBAppDelegate.h; sourceTree = "<group>"; };
+		DCD30A901797E240007924EF /* BBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBAppDelegate.m; sourceTree = "<group>"; };
+		DCD30A921797E240007924EF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DCD30A941797E240007924EF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DCD30A961797E240007924EF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DCD30A981797E240007924EF /* BBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBViewController.h; sourceTree = "<group>"; };
+		DCD30A991797E241007924EF /* BBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBViewController.m; sourceTree = "<group>"; };
+		DCD30A9C1797E241007924EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BBViewController_iPhone.xib; sourceTree = "<group>"; };
+		DCD30A9F1797E241007924EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BBViewController_iPad.xib; sourceTree = "<group>"; };
+		DCD30AA61797E284007924EF /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		DCD30AA91797E343007924EF /* BBScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBScene.h; sourceTree = "<group>"; };
+		DCD30AAA1797E343007924EF /* BBScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBScene.m; sourceTree = "<group>"; };
+		DCD30AAB1797E343007924EF /* BBSceneLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSceneLoader.h; sourceTree = "<group>"; };
+		DCD30AAC1797E343007924EF /* BBSceneLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSceneLoader.m; sourceTree = "<group>"; };
+		DCD30AAD1797E343007924EF /* CCNode+BocceBeers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCNode+BocceBeers.h"; sourceTree = "<group>"; };
+		DCD30AAE1797E343007924EF /* CCNode+BocceBeers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCNode+BocceBeers.m"; sourceTree = "<group>"; };
+		DCD30AB51797E343007924EF /* BBCocos2DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCocos2DViewController.h; sourceTree = "<group>"; };
+		DCD30AB61797E343007924EF /* BBCocos2DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCocos2DViewController.m; sourceTree = "<group>"; };
+		DCD30AB91797E343007924EF /* BBSceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSceneViewController.h; sourceTree = "<group>"; };
+		DCD30ABA1797E343007924EF /* BBSceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSceneViewController.m; sourceTree = "<group>"; };
+		DCD30AC71797E556007924EF /* BBLoadableSceneProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBLoadableSceneProtocol.h; sourceTree = "<group>"; };
+		DCD30AC91797E7BA007924EF /* BBGameSceneLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBGameSceneLoader.h; sourceTree = "<group>"; };
+		DCD30ACA1797E7BA007924EF /* BBGameSceneLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBGameSceneLoader.m; sourceTree = "<group>"; };
+		DCD30ACB1797E7BA007924EF /* BBTestLoadableScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBTestLoadableScene.h; sourceTree = "<group>"; };
+		DCD30ACC1797E7BA007924EF /* BBTestLoadableScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBTestLoadableScene.m; sourceTree = "<group>"; };
+		DCD30ACF1797E8BE007924EF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		F0CBCB2414ED427692C24FD2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCD30A7A1797E240007924EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD30A811797E240007924EF /* UIKit.framework in Frameworks */,
+				DCD30A831797E240007924EF /* Foundation.framework in Frameworks */,
+				DCD30A851797E240007924EF /* CoreGraphics.framework in Frameworks */,
+				BDA16FB7E0D845D6A048E198 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCD30A741797E240007924EF = {
+			isa = PBXGroup;
+			children = (
+				DCD30ACF1797E8BE007924EF /* README.md */,
+				DCD30AA61797E284007924EF /* Podfile */,
+				DCD30A861797E240007924EF /* CocosUIKitHybrid */,
+				DCD30A7F1797E240007924EF /* Frameworks */,
+				DCD30A7E1797E240007924EF /* Products */,
+				8DAD12EE041F4038B836D310 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		DCD30A7E1797E240007924EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCD30A7D1797E240007924EF /* CocosUIKitHybrid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCD30A7F1797E240007924EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCD30A801797E240007924EF /* UIKit.framework */,
+				DCD30A821797E240007924EF /* Foundation.framework */,
+				DCD30A841797E240007924EF /* CoreGraphics.framework */,
+				F0CBCB2414ED427692C24FD2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCD30A861797E240007924EF /* CocosUIKitHybrid */ = {
+			isa = PBXGroup;
+			children = (
+				DCD30A8F1797E240007924EF /* BBAppDelegate.h */,
+				DCD30A901797E240007924EF /* BBAppDelegate.m */,
+				DCD30A981797E240007924EF /* BBViewController.h */,
+				DCD30A991797E241007924EF /* BBViewController.m */,
+				DCD30A9B1797E241007924EF /* BBViewController_iPhone.xib */,
+				DCD30A9E1797E241007924EF /* BBViewController_iPad.xib */,
+				DCD30AC81797E7BA007924EF /* Demo Implementations */,
+				DCD30AA71797E343007924EF /* Cocos2DLoadableScene */,
+				DCD30AB41797E343007924EF /* Cocos2DViewController */,
+				DCD30A871797E240007924EF /* Supporting Files */,
+			);
+			path = CocosUIKitHybrid;
+			sourceTree = "<group>";
+		};
+		DCD30A871797E240007924EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCD30A881797E240007924EF /* CocosUIKitHybrid-Info.plist */,
+				DCD30A891797E240007924EF /* InfoPlist.strings */,
+				DCD30A8C1797E240007924EF /* main.m */,
+				DCD30A8E1797E240007924EF /* CocosUIKitHybrid-Prefix.pch */,
+				DCD30A921797E240007924EF /* Default.png */,
+				DCD30A941797E240007924EF /* Default@2x.png */,
+				DCD30A961797E240007924EF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCD30AA71797E343007924EF /* Cocos2DLoadableScene */ = {
+			isa = PBXGroup;
+			children = (
+				DCD30AA81797E343007924EF /* Base Classes */,
+			);
+			path = Cocos2DLoadableScene;
+			sourceTree = "<group>";
+		};
+		DCD30AA81797E343007924EF /* Base Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DCD30AC71797E556007924EF /* BBLoadableSceneProtocol.h */,
+				DCD30AA91797E343007924EF /* BBScene.h */,
+				DCD30AAA1797E343007924EF /* BBScene.m */,
+				DCD30AAB1797E343007924EF /* BBSceneLoader.h */,
+				DCD30AAC1797E343007924EF /* BBSceneLoader.m */,
+				DCD30AAD1797E343007924EF /* CCNode+BocceBeers.h */,
+				DCD30AAE1797E343007924EF /* CCNode+BocceBeers.m */,
+			);
+			path = "Base Classes";
+			sourceTree = "<group>";
+		};
+		DCD30AB41797E343007924EF /* Cocos2DViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DCD30AB51797E343007924EF /* BBCocos2DViewController.h */,
+				DCD30AB61797E343007924EF /* BBCocos2DViewController.m */,
+				DCD30AB91797E343007924EF /* BBSceneViewController.h */,
+				DCD30ABA1797E343007924EF /* BBSceneViewController.m */,
+			);
+			path = Cocos2DViewController;
+			sourceTree = "<group>";
+		};
+		DCD30AC81797E7BA007924EF /* Demo Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				DCD30AC91797E7BA007924EF /* BBGameSceneLoader.h */,
+				DCD30ACA1797E7BA007924EF /* BBGameSceneLoader.m */,
+				DCD30ACB1797E7BA007924EF /* BBTestLoadableScene.h */,
+				DCD30ACC1797E7BA007924EF /* BBTestLoadableScene.m */,
+			);
+			path = "Demo Implementations";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCD30A7C1797E240007924EF /* CocosUIKitHybrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD30AA31797E241007924EF /* Build configuration list for PBXNativeTarget "CocosUIKitHybrid" */;
+			buildPhases = (
+				BD9D624754364998AA97FFDC /* Check Pods Manifest.lock */,
+				DCD30A791797E240007924EF /* Sources */,
+				DCD30A7A1797E240007924EF /* Frameworks */,
+				DCD30A7B1797E240007924EF /* Resources */,
+				59C8EFD6F2764E928CD552A1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocosUIKitHybrid;
+			productName = CocosUIKitHybrid;
+			productReference = DCD30A7D1797E240007924EF /* CocosUIKitHybrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCD30A751797E240007924EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BB;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Stephen O'Connor";
+			};
+			buildConfigurationList = DCD30A781797E240007924EF /* Build configuration list for PBXProject "CocosUIKitHybrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DCD30A741797E240007924EF;
+			productRefGroup = DCD30A7E1797E240007924EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCD30A7C1797E240007924EF /* CocosUIKitHybrid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCD30A7B1797E240007924EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD30A8B1797E240007924EF /* InfoPlist.strings in Resources */,
+				DCD30A931797E240007924EF /* Default.png in Resources */,
+				DCD30A951797E240007924EF /* Default@2x.png in Resources */,
+				DCD30A971797E240007924EF /* Default-568h@2x.png in Resources */,
+				DCD30A9D1797E241007924EF /* BBViewController_iPhone.xib in Resources */,
+				DCD30AA01797E241007924EF /* BBViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59C8EFD6F2764E928CD552A1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		BD9D624754364998AA97FFDC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCD30A791797E240007924EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD30A8D1797E240007924EF /* main.m in Sources */,
+				DCD30A911797E240007924EF /* BBAppDelegate.m in Sources */,
+				DCD30A9A1797E241007924EF /* BBViewController.m in Sources */,
+				DCD30ABB1797E343007924EF /* BBScene.m in Sources */,
+				DCD30ABC1797E343007924EF /* BBSceneLoader.m in Sources */,
+				DCD30ABD1797E343007924EF /* CCNode+BocceBeers.m in Sources */,
+				DCD30AC01797E343007924EF /* BBCocos2DViewController.m in Sources */,
+				DCD30AC21797E343007924EF /* BBSceneViewController.m in Sources */,
+				DCD30ACD1797E7BA007924EF /* BBGameSceneLoader.m in Sources */,
+				DCD30ACE1797E7BA007924EF /* BBTestLoadableScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCD30A891797E240007924EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD30A8A1797E240007924EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DCD30A9B1797E241007924EF /* BBViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD30A9C1797E241007924EF /* en */,
+			);
+			name = BBViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		DCD30A9E1797E241007924EF /* BBViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD30A9F1797E241007924EF /* en */,
+			);
+			name = BBViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCD30AA11797E241007924EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCD30AA21797E241007924EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCD30AA41797E241007924EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DAD12EE041F4038B836D310 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocosUIKitHybrid/CocosUIKitHybrid-Prefix.pch";
+				INFOPLIST_FILE = "CocosUIKitHybrid/CocosUIKitHybrid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DCD30AA51797E241007924EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DAD12EE041F4038B836D310 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocosUIKitHybrid/CocosUIKitHybrid-Prefix.pch";
+				INFOPLIST_FILE = "CocosUIKitHybrid/CocosUIKitHybrid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCD30A781797E240007924EF /* Build configuration list for PBXProject "CocosUIKitHybrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD30AA11797E241007924EF /* Debug */,
+				DCD30AA21797E241007924EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD30AA31797E241007924EF /* Build configuration list for PBXNativeTarget "CocosUIKitHybrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD30AA41797E241007924EF /* Debug */,
+				DCD30AA51797E241007924EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCD30A751797E240007924EF /* Project object */;
+}
